@@ -28,6 +28,13 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen bg-gray-200 flex items-center justify-center p-4">
       <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 w-full max-w-sm">
+        <p className="text-lg font-bold text-center text-black mb-2">
+          Aplicación interna para
+          <br />
+          Migrar Menú de PedidosYa a
+          <br />
+          Gestión de Menú de Fudo
+        </p>
         <h1 className="text-3xl font-bold text-center text-orange-600 tracking-wide mb-6">FUDO</h1>
 
         <form onSubmit={handleSubmit} className="space-y-3">
