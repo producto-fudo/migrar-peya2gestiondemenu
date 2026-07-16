@@ -1,0 +1,937 @@
+{
+    "5": {
+        "id": 5,
+        "name": "control_receipt_body",
+        "value": null
+    },
+    "22": {
+        "id": 22,
+        "name": "kitchen_receipt_header",
+        "value": ""
+    },
+    "23": {
+        "id": 23,
+        "name": "kitchen_receipt_footer",
+        "value": "."
+    },
+    "28": {
+        "id": 28,
+        "name": "print_guest_balance_in_control_receipt",
+        "value": true
+    },
+    "27": {
+        "id": 27,
+        "name": "save_guest_by_default",
+        "value": true
+    },
+    "2": {
+        "id": 2,
+        "name": "fiscal_receipt",
+        "value": null
+    },
+    "29": {
+        "id": 29,
+        "name": "google_drive_data",
+        "value": null
+    },
+    "11": {
+        "id": 11,
+        "name": "fiscal_protocol",
+        "value": "epson_ar"
+    },
+    "34": {
+        "id": 34,
+        "name": "print_kitchen_receipt_cancellation",
+        "value": true
+    },
+    "38": {
+        "id": 38,
+        "name": "delivery_integration",
+        "value": {
+            "dummyProductId": 535,
+            "dummyOptionId": 535,
+            "onlinePaymentTypeId": 1,
+            "cashPaymentTypeId": 1,
+            "integrationUserId": 68748
+        }
+    },
+    "45": {
+        "id": 45,
+        "name": "electronic_invoice_receipt",
+        "value": null
+    },
+    "13": {
+        "id": 13,
+        "name": "print_tip_in_control_receipt",
+        "value": true
+    },
+    "19": {
+        "id": 19,
+        "name": "print_tip_in_delivery",
+        "value": true
+    },
+    "20": {
+        "id": 20,
+        "name": "print_tip_in_take_away",
+        "value": true
+    },
+    "26": {
+        "id": 26,
+        "name": "enable_delivery_tip_control",
+        "value": true
+    },
+    "47": {
+        "id": 47,
+        "name": "enable_guest_dropdown",
+        "value": false
+    },
+    "48": {
+        "id": 48,
+        "name": "br_tips_settings",
+        "value": {}
+    },
+    "49": {
+        "id": 49,
+        "name": "sii_integration",
+        "value": {
+            "certifiedDocuments": []
+        }
+    },
+    "25": {
+        "id": 25,
+        "name": "enable_take_away_tip_control",
+        "value": true
+    },
+    "21": {
+        "id": 21,
+        "name": "print_sale_id_in_control_receipt",
+        "value": 4
+    },
+    "3": {
+        "id": 3,
+        "name": "control_receipt_header",
+        "value": "FUDO"
+    },
+    "7": {
+        "id": 7,
+        "name": "control_receipt_footer",
+        "value": "www.fu.do"
+    },
+    "52": {
+        "id": 52,
+        "name": "self_invoicing",
+        "value": {
+            "enabled": false,
+            "printCode": false
+        }
+    },
+    "42": {
+        "id": 42,
+        "name": "delivery",
+        "value": {
+            "printSaleComment": true,
+            "defaultShippingCostAmount": 1000,
+            "states": {
+                "readyToDeliver": true
+            },
+            "whatsappTracking": true
+        }
+    },
+    "51": {
+        "id": 51,
+        "name": "print_currency_in_control_receipt",
+        "value": true
+    },
+    "58": {
+        "id": 58,
+        "name": "enable_automatic_invoice",
+        "value": false
+    },
+    "54": {
+        "id": 54,
+        "name": "control_receipt_print_on_close",
+        "value": false
+    },
+    "18": {
+        "id": 18,
+        "name": "enable_mobile_app",
+        "value": true
+    },
+    "55": {
+        "id": 55,
+        "name": "control_receipt_print_zero_price_proportions",
+        "value": false
+    },
+    "1": {
+        "id": 1,
+        "name": "locale",
+        "value": "es-AR"
+    },
+    "50": {
+        "id": 50,
+        "name": "kds",
+        "value": {
+            "veryDelayedThreshold": 2,
+            "sound": {
+                "enabled": true
+            },
+            "statusOrders": {
+                "enabled": true
+            }
+        }
+    },
+    "36": {
+        "id": 36,
+        "name": "data_export",
+        "value": {
+            "columns": {
+                "sales": {
+                    "sales": [
+                        "id",
+                        "date",
+                        "created_at",
+                        "closed_at",
+                        "cash_register",
+                        "state",
+                        "guest",
+                        "table",
+                        "room",
+                        "people",
+                        "waiter",
+                        "payment_type",
+                        "total",
+                        "fiscal",
+                        "sale_type",
+                        "comment",
+                        "guest_id",
+                        "order_origin",
+                        "order_external_id",
+                        "guest_email",
+                        "guest_phone",
+                        "sale_closed_by"
+                    ],
+                    "additions": [
+                        "product_category",
+                        "sale_id",
+                        "created_at",
+                        "product",
+                        "count",
+                        "price",
+                        "cost",
+                        "modifiers_cost",
+                        "total_cost",
+                        "created_by",
+                        "kitchen",
+                        "canceled",
+                        "canceled_by",
+                        "comment",
+                        "cancellation_comment",
+                        "product_id",
+                        "product_code",
+                        "sale_type"
+                    ],
+                    "fiscalData": [
+                        "sale_id",
+                        "created_at",
+                        "receipt_type",
+                        "document_letter",
+                        "receipt_number",
+                        "tax_system",
+                        "customer_name",
+                        "customer_address",
+                        "customer_fiscal_id",
+                        "embark_number",
+                        "subtotal",
+                        "tax",
+                        "total",
+                        "code"
+                    ]
+                }
+            }
+        }
+    },
+    "39": {
+        "id": 39,
+        "name": "price_list",
+        "value": {
+            "defaultLists": {
+                "1": null,
+                "3": null,
+                "4": null
+            },
+            "defaultListsOnlineMenu": {
+                "3": 25,
+                "4": 26
+            },
+            "defaultListQrMenu": 27
+        }
+    },
+    "16": {
+        "id": 16,
+        "name": "show_drawer_icon_on_close_table_dialog",
+        "value": false
+    },
+    "15": {
+        "id": 15,
+        "name": "open_drawer_on_close_table_dialog",
+        "value": true
+    },
+    "12": {
+        "id": 12,
+        "name": "tip_percentage",
+        "value": 10
+    },
+    "4": {
+        "id": 4,
+        "name": "control_receipt_header_format",
+        "value": {
+            "font": {
+                "t": 0,
+                "h": 2,
+                "w": 2
+            }
+        }
+    },
+    "6": {
+        "id": 6,
+        "name": "control_receipt_body_format",
+        "value": {
+            "font": {
+                "t": 0,
+                "h": 2,
+                "w": 2
+            },
+            "maxProductLength": 31
+        }
+    },
+    "8": {
+        "id": 8,
+        "name": "control_receipt_footer_format",
+        "value": {
+            "font": {
+                "t": 1,
+                "h": 2,
+                "w": 2
+            }
+        }
+    },
+    "60": {
+        "id": 60,
+        "name": "ignore_taxes_to_calculate_tips",
+        "value": false
+    },
+    "59": {
+        "id": 59,
+        "name": "ignore_discounts_to_calculate_tips",
+        "value": true
+    },
+    "9": {
+        "id": 9,
+        "name": "kitchen_receipt_header_format",
+        "value": {
+            "font": {
+                "t": 1,
+                "h": 1,
+                "w": 1
+            }
+        }
+    },
+    "10": {
+        "id": 10,
+        "name": "kitchen_receipt_body_format",
+        "value": {
+            "font": {
+                "w": 1,
+                "h": 1,
+                "t": 1
+            }
+        }
+    },
+    "24": {
+        "id": 24,
+        "name": "kitchen_receipt_footer_format",
+        "value": {
+            "font": {
+                "t": 1,
+                "h": 1,
+                "w": 1
+            }
+        }
+    },
+    "35": {
+        "id": 35,
+        "name": "afip_settings",
+        "value": {
+            "socialName": "BUENISIMA NOTICIA S.A.",
+            "startDate": "2015-12-30T03:00:00.000Z",
+            "address": "Calle falsa 1",
+            "netIncomeNumber": "302843",
+            "issuerIvaCondition": "responsable_inscripto",
+            "cuit": "20295019302",
+            "pointOfSale": 333,
+            "state": "pending",
+            "enabled": true
+        }
+    },
+    "43": {
+        "id": 43,
+        "name": "operation_modes",
+        "value": {
+            "tabsOrder": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    "40": {
+        "id": 40,
+        "name": "delivery_integrations",
+        "value": {
+            "onlineMenu": {
+                "enabled": true,
+                "delivery": false,
+                "pickup": true,
+                "userId": 68750,
+                "contactEmail": "no-reply@fu.do",
+                "contactPhone": 542215362274,
+                "sound": {
+                    "enabled": false
+                },
+                "shippingCost": null,
+                "sendConfirmCopy": true,
+                "confirmCopyEmail": "developer@fu.do",
+                "sendRejectCopy": true,
+                "rejectCopyEmail": "developer@fu.do",
+                "printControlReceipt": true,
+                "contactAddress": "Castilo 1367",
+                "cardsViewEnabled": false,
+                "openingHours": "Lun a Vie de 8:00 a 20:00 hs",
+                "paymentTypes": {},
+                "autocompleteRestrictionLevel": "required",
+                "location": {
+                    "name": "José Hernández, C1426 Cdad. Autónoma de Buenos Aires, Argentina",
+                    "googleId": "EkJKb3PDqSBIZXJuw6FuZGV6LCBDMTQyNiBDZGFkLiBBdXTDs25vbWEgZGUgQnVlbm9zIEFpcmVzLCBBcmdlbnRpbmEiLiosChQKEgnHtoNCzrW8lRFJ4W7fjipI9xIUChIJu39FBT3KvJURF8D35_z0YOE",
+                    "lat": -34.5635954,
+                    "lng": -58.4497185,
+                    "street": {
+                        "longName": "José Hernández",
+                        "shortName": "José Hernández",
+                        "types": [
+                            "route"
+                        ]
+                    },
+                    "neighborhood": {
+                        "longName": "Belgrano",
+                        "shortName": "Belgrano",
+                        "types": [
+                            "sublocality_level_1",
+                            "sublocality",
+                            "political"
+                        ]
+                    },
+                    "city": {
+                        "longName": "Ciudad Autónoma de Buenos Aires",
+                        "shortName": "CABA",
+                        "types": [
+                            "locality",
+                            "political"
+                        ]
+                    },
+                    "state": {
+                        "longName": "Ciudad Autónoma de Buenos Aires",
+                        "shortName": "Cdad. Autónoma de Buenos Aires",
+                        "types": [
+                            "administrative_area_level_1",
+                            "political"
+                        ]
+                    },
+                    "postalCode": {
+                        "longName": "C1426",
+                        "shortName": "C1426",
+                        "types": [
+                            "postal_code"
+                        ]
+                    }
+                },
+                "pickupAvailableTimes": [
+                    {
+                        "enabled": false,
+                        "times": [
+                            [
+                                "00:00",
+                                "18:01"
+                            ]
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "08:00",
+                                "23:00"
+                            ],
+                            [
+                                "20:18",
+                                "12:18"
+                            ]
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "09:00",
+                                "22:00"
+                            ]
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "10:00",
+                                "23:59"
+                            ]
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "11:00",
+                                "23:59"
+                            ]
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "12:00",
+                                "23:59"
+                            ]
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "13:00",
+                                "23:59"
+                            ]
+                        ]
+                    }
+                ],
+                "deliveryAvailableTimes": [
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "00:00",
+                                "18:01"
+                            ]
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "08:00",
+                                "23:00"
+                            ]
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "09:00",
+                                "23:59"
+                            ]
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "10:00",
+                                "23:59"
+                            ]
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "10:00",
+                                "23:59"
+                            ]
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "11:00",
+                                "23:59"
+                            ]
+                        ]
+                    },
+                    {
+                        "enabled": true,
+                        "times": [
+                            [
+                                "12:00",
+                                "23:59"
+                            ]
+                        ]
+                    }
+                ],
+                "deliveryZones": [
+                    {
+                        "shape": {
+                            "type": "polygon",
+                            "data": {
+                                "perimeter": "bo}qE`bwcJrBfEdEaDkEqJkExD"
+                            }
+                        },
+                        "name": "Poli",
+                        "shippingCost": 0,
+                        "shippingCostPerKilometer": 100
+                    },
+                    {
+                        "name": "zona 1",
+                        "shippingCost": 3455,
+                        "shippingCostPerKilometer": 2,
+                        "shape": {
+                            "type": "circle",
+                            "data": {
+                                "center": {
+                                    "lat": -34.5620999492763,
+                                    "lng": -58.4509209783928
+                                },
+                                "radius": 432.753148779218
+                            }
+                        }
+                    }
+                ],
+                "whatsapp": null,
+                "facebook": "https://facebook.com/mirestaurante",
+                "instagram": "https://instagram.com/mirestaurante",
+                "name": "eresto(prod)",
+                "logo": {
+                    "url": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/1/images/c8b146c0-9f63-4059-8bcb-47d131039a74",
+                    "shape": "square"
+                },
+                "pickupOfflinePaymentTypes": [
+                    23,
+                    1
+                ],
+                "deliveryOfflinePaymentTypes": [
+                    11,
+                    22,
+                    15,
+                    19,
+                    3,
+                    1,
+                    8
+                ],
+                "hideUnavailableProducts": false,
+                "backgroundImage": {
+                    "url": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/1/images/89789fc2-7b71-44ea-a79f-217da647a3d8"
+                },
+                "whatsappMessagging": {
+                    "enabled": true,
+                    "sendReadyToDeliver": true
+                },
+                "dataCollection": {
+                    "enabled": true
+                },
+                "scheduleOrder": {
+                    "enabled": true
+                },
+                "trialConfigAlert": false,
+                "coupons": {
+                    "enabled": true
+                },
+                "tracking": {
+                    "enabled": true
+                },
+                "rejectIfNoStock": true,
+                "requireCashAmount": true,
+                "pickupReadyToDeliver": false,
+                "appearance": {
+                    "colorScheme": {
+                        "palette": "orange"
+                    },
+                    "typography": {
+                        "fontFamily": "BioRhyme",
+                        "titles": "BioRhyme"
+                    },
+                    "template": 1,
+                    "categoryIcons": {
+                        "enabled": true,
+                        "variant": "stroke"
+                    }
+                },
+                "minimumAmount": {
+                    "enabled": false,
+                    "value": 80000
+                },
+                "customerRegistration": true,
+                "version": "PLUS",
+                "status": "ACTIVE",
+                "downgrade": null,
+                "pixel": {
+                    "meta": [
+                        ""
+                    ]
+                },
+                "plusTrialPeriod": false,
+                "transferredServiceFeePercentage": 25,
+                "logistics": {
+                    "preferredProvider": "pedidos_ya_courier"
+                },
+                "onlinePaymentPolicy": null,
+                "banner": {
+                    "enabled": false,
+                    "message": "Aviso destacado",
+                    "backgroundColor": "primary"
+                },
+                "carousel": {
+                    "enabled": false,
+                    "desktop": {
+                        "images": []
+                    },
+                    "mobile": {
+                        "overrides": false,
+                        "images": []
+                    }
+                },
+                "paymentMethodDiscounts": [
+                    {
+                        "discountTemplateId": 18,
+                        "paymentTypeId": 28
+                    }
+                ],
+                "paused": false
+            },
+            "uberEats": {
+                "userId": 68748,
+                "paymentTypes": {
+                    "online": 2,
+                    "efectivo": 1
+                },
+                "defaultProductId": 535,
+                "defaultOptionalId": 537,
+                "rejectIfNoStock": false,
+                "printControlReceipt": true,
+                "productPrefix": "",
+                "sound": {
+                    "enabled": false
+                },
+                "autoconfirm": true,
+                "feePercentage": 10
+            },
+            "qrMenu": {
+                "enabled": true,
+                "showProductImages": true,
+                "contactPhone": 123456,
+                "name": "Mi restaurante",
+                "facebook": "https://facebook.com/mirestaurante",
+                "instagram": "https://instagram.com/mirestaurante",
+                "logo": {
+                    "url": "https://fudo-apps-storage.s3-sa-east-1.amazonaws.com/production/1/qr-menu/logo"
+                },
+                "hideUnavailableProducts": false,
+                "backgroundImage": {
+                    "url": "https://fudo-apps-storage.s3-sa-east-1.amazonaws.com/production/1/qr-menu/background-image"
+                },
+                "selfService": {
+                    "enabled": true,
+                    "paymentMethod": "waiter",
+                    "showProductImages": false,
+                    "acceptProductsAutomatically": false
+                }
+            },
+            "rappi": {
+                "userId": 68748,
+                "paymentTypes": {
+                    "online": 1,
+                    "cash": 21
+                },
+                "defaultProductId": 535,
+                "defaultOptionalId": 537,
+                "sound": {
+                    "enabled": true
+                },
+                "printControlReceipt": true,
+                "autoconfirm": true
+            },
+            "didi": {
+                "printControlReceipt": true,
+                "userId": 68748,
+                "paymentTypes": {
+                    "online": 2,
+                    "cash": 1
+                },
+                "defaultProductId": 535,
+                "defaultOptionalId": 537
+            },
+            "justo": {
+                "defaultProductId": 535,
+                "defaultOptionalId": 537,
+                "userId": 68786,
+                "paymentTypes": {
+                    "online": 16,
+                    "efectivo": 17
+                },
+                "sound": {
+                    "enabled": true
+                },
+                "printControlReceipt": true,
+                "rejectIfNoStock": true
+            },
+            "pedidosYa": {
+                "defaultProductId": 535,
+                "defaultOptionalId": 537,
+                "userId": 68800,
+                "paymentTypes": {
+                    "online": 22,
+                    "efectivo": 23
+                },
+                "sound": {
+                    "enabled": false
+                },
+                "printControlReceipt": true,
+                "autoconfirm": true,
+                "internalAutoConfirm": false,
+                "feePercentage": 20
+            },
+            "99food": {
+                "defaultProductId": 535,
+                "defaultOptionalId": 537,
+                "userId": 68845,
+                "paymentTypes": {
+                    "online": 30,
+                    "cash": 31
+                },
+                "sound": {
+                    "enabled": true
+                },
+                "printControlReceipt": true,
+                "autoconfirm": true
+            }
+        }
+    },
+    "69": {
+        "id": 69,
+        "name": "mp_integration",
+        "value": null
+    },
+    "46": {
+        "id": 46,
+        "name": "billing_data",
+        "value": {
+            "tributaryType": "DNI",
+            "tributaryCode": "41915119",
+            "fiscalRegime": null,
+            "fiscalResponsability": null,
+            "socialType": null,
+            "country": "Argentina",
+            "city": "C.A.B.A.",
+            "commune": null,
+            "postalCode": null,
+            "state": null,
+            "address": "Santa Rosa 5156",
+            "exchange": null,
+            "taxType": "Consumidor final",
+            "email": null
+        }
+    },
+    "14": {
+        "id": 14,
+        "name": "enable_tip_control",
+        "value": true
+    },
+    "61": {
+        "id": 61,
+        "name": "send_email_on_close_cash_count",
+        "value": false
+    },
+    "63": {
+        "id": 63,
+        "name": "automatic_invoice_issuing",
+        "value": {
+            "status": "disabled",
+            "paymentMethods": []
+        }
+    },
+    "57": {
+        "id": 57,
+        "name": "profile",
+        "value": {
+            "profile": {
+                "salesModalities": [
+                    "takeaway",
+                    "tables"
+                ],
+                "foodType": [
+                    "grill",
+                    "cafe"
+                ],
+                "monthlySales": "noSales",
+                "keyTools": [
+                    "reports"
+                ],
+                "previousSoftware": "No",
+                "howDidYouKnowUs": "salesVisit"
+            }
+        }
+    },
+    "53": {
+        "id": 53,
+        "name": "virtual_assistants",
+        "value": {
+            "onlineMenuClerk": {
+                "enabled": true,
+                "version": "ai_v2",
+                "features": {
+                    "llmAnswerOnStoreClosed": true
+                }
+            }
+        }
+    },
+    "17": {
+        "id": 17,
+        "name": "currency_symbol",
+        "value": ""
+    },
+    "62": {
+        "id": 62,
+        "name": "online_menu_first_steps",
+        "value": {
+            "design": {
+                "status": "COMPLETED",
+                "completedAt": "2026-03-17T13:27:48.718Z"
+            },
+            "schedule": {
+                "status": "COMPLETED",
+                "completedAt": "2026-03-17T13:27:48.718Z"
+            },
+            "paymentMethods": {
+                "status": "COMPLETED",
+                "completedAt": "2026-03-17T13:27:48.718Z"
+            },
+            "products": {
+                "status": "COMPLETED",
+                "completedAt": "2026-03-17T13:27:48.718Z"
+            },
+            "shippingCost": {
+                "status": "COMPLETED",
+                "completedAt": "2026-03-17T13:27:48.718Z"
+            }
+        }
+    }
+}

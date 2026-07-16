@@ -1,0 +1,7 @@
+project_id = "fetxvernorfjvibdmryt"
+
+[functions.fudo-auth]
+verify_jwt = false
+
+[functions.peya-migration-fudo-auth]
+verify_jwt = false
